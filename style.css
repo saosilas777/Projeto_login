@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Images/BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.login {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: #ffffff9d;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px black
+}
+
+.login input{
+    display: flex;
+    padding: 5px 0;
+    margin: 10px 0;
+    background-color: #ffe6e69a;
+    border: 2px solid black ;
+    border-radius: 8px;
+
+}
+
+.login button {
+    width: 80%;
+    padding: 5px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.login button:hover{
+    background-color: #2c2c2c;
+    color: #01fffd;
+    text-shadow: 1px 1px 1px #0061ff;
+}
+.login .chk label{
+    display: flex;
+    align-items: center;
+    font-size: 9px;
+    cursor: pointer;
+}
+.login .chk input{
+    margin-right: 5px;
+}
+
+.login label {
+    text-align: center;
+}
+
+.login a {
+    display: block;
+    color: rgb(63, 63, 63);
+    font-size: 10px;
+    font-weight: bold;
+    text-align: end;
+    text-decoration: none;
+    text-shadow:1px 1px 1px rgb(255, 255, 255)
+}
+.login a:hover{
+    color: #0061ff;
+    text-shadow:1px 1px 1px rgb(165, 197, 255)
+
+}
+
+.gear-login{
+    font-size: 42px;
+    position: absolute;
+    top: -15px;
+    left: -5px;
+
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
