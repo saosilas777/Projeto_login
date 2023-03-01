@@ -1,9 +1,9 @@
 
+
+function validation() {
 var pwd = document.getElementById('pwd').value;
 var user = document.getElementById('name').value;
-function validation() {
-
-    if (pwd === "12345") {
+    if (pwd === "12345" && user === "Silas") {
         document.getElementById('btn').style.display = 'block';
     }
     else {
